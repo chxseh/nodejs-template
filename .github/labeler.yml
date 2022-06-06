@@ -1,0 +1,14 @@
+---
+dependencies:
+  - package.json
+  - package-lock.json
+  - .github/**/*
+
+misc:
+  - README.md
+  - LICENSE.md
+  - .gitignore
+  - .gitattributes
+  - .eslintrc.json
+  - .github/**/*
+  - .vscode/**/*

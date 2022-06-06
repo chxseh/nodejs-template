@@ -1,0 +1,40 @@
+{
+    "name": "webfront",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": ">=16.14.0"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "lint": "eslint --fix --ext .js ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sm2game/webfront.git"
+    },
+    "keywords": [],
+    "author": "Chase <c@chse.dev> (https://chse.dev)",
+    "contributors": [
+        "mikzy <> (https://github.com/mjkzy)"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sm2game/webfront/issues"
+    },
+    "homepage": "https://github.com/sm2game/webfront#readme",
+    "dependencies": {
+        "chalk": "5.0.1",
+        "node-fetch": "3.2.3",
+        "readline-sync": "1.4.10"
+    },
+    "devDependencies": {
+        "eslint": "8.16.0",
+        "eslint-config-chase": "1.0.3",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jsdoc": "39.3.2",
+        "eslint-plugin-unicorn": "42.0.0"
+    }
+}
