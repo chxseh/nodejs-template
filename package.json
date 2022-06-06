@@ -27,7 +27,7 @@
     "homepage": "https://github.com/sm2game/webfront#readme",
     "dependencies": {
         "chalk": "5.0.1",
-        "node-fetch": "3.2.3",
+        "node-fetch": "3.2.5",
         "readline-sync": "1.4.10"
     },
     "devDependencies": {
